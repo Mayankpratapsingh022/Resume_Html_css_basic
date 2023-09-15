@@ -1,0 +1,159 @@
+
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+ 
+
+body{
+    background-color: #66caaf;
+}
+*{
+   
+   
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 1rem;
+}
+
+
+.nav-bar{
+    background-color: #071e2b;
+    padding: 10x;
+    
+
+}
+
+
+.nav-list{
+    display: inline;
+   
+}
+
+.profile{
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.fa-solid{
+    padding: 5px;
+}
+
+.fa-brands{
+    padding: 5px;
+}
+
+.contact-nav{
+    justify-content: center;
+    align-items: center;
+    background-color: #071e2b;
+    color: #66caaf;
+    padding: 10px;
+}
+
+h2{
+    font-family: 'Gilroy-Heavy', sans-serif;
+}
+
+
+hr{
+    border-top: 5px solid #071e2b ;
+}
+
+h1{
+    font-size: 3vw;
+    font-family: 'Gilroy-Light', sans-serif;
+}
+
+nav a{
+    color: #66caaf;
+}
+
+.typing{
+    display: inline-block;
+}
+h2{
+    background-color: #071e2b;
+    color: #66caaf;
+    padding: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.chat-link{
+    
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: lightcoral;
+    
+    
+}
+
+.chat-link:hover{
+    
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(238, 56, 56);
+    
+
+    
+    
+}
+
+
+
+
+.text{
+    letter-spacing: 1px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(35),
+    cursor .4s step-end infinite alternate;
+    display: inline-block;
+    
+}
+
+.text1{
+
+    letter-spacing: 1px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    animation: typing 2s steps(35),
+    cursor .4s step-end infinite alternate;
+    display: inline-block;
+    animation-delay: 2s;
+
+  
+  
+    
+
+    
+    
+}
+
+.arti1{
+    align-content: center;
+}
+    
+.footnote{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #071e2b;
+     color: #66caaf;
+}
+
+@keyframes cursor{
+    50% {border-color: transparent;}
+}
+@keyframes typing{
+    from{ width:0}
+}
+
